@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T09:49:29 PDT" name="Default suite" finished-at="2022-03-20T09:51:54 PDT" duration-ms="145115">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T09:49:29 PDT" name="Default test" finished-at="2022-03-20T09:51:54 PDT" duration-ms="145115">
+      <class name="com.application.testcases.MyTestAssignment">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:49:29 PDT" name="beforeMethod" finished-at="2022-03-20T09:49:35 PDT" duration-ms="5566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createAccount()[pri:-1, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:49:35 PDT" name="createAccount" description="User account creation" finished-at="2022-03-20T09:50:15 PDT" duration-ms="40879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:15 PDT" name="afterMethod" finished-at="2022-03-20T09:50:15 PDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:16 PDT" name="beforeMethod" finished-at="2022-03-20T09:50:21 PDT" duration-ms="5486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:21 PDT" name="loginWithValidCredentials" description="Valid test case" finished-at="2022-03-20T09:50:29 PDT" duration-ms="8206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:29 PDT" name="afterMethod" finished-at="2022-03-20T09:50:29 PDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:29 PDT" name="beforeMethod" finished-at="2022-03-20T09:50:34 PDT" duration-ms="4184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithInValidEmailID()[pri:1, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:34 PDT" name="loginWithInValidEmailID" description="Invalid test case with invalid email id" finished-at="2022-03-20T09:50:41 PDT" duration-ms="7881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidEmailID -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:41 PDT" name="afterMethod" finished-at="2022-03-20T09:50:41 PDT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:41 PDT" name="beforeMethod" finished-at="2022-03-20T09:50:52 PDT" duration-ms="10350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithInValidPassword()[pri:2, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:52 PDT" name="loginWithInValidPassword" description="Invalid test case with invalid password" finished-at="2022-03-20T09:50:55 PDT" duration-ms="3435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:55 PDT" name="afterMethod" finished-at="2022-03-20T09:50:55 PDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:50:55 PDT" name="beforeMethod" finished-at="2022-03-20T09:51:00 PDT" duration-ms="4477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithInValidCredentials()[pri:3, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:00 PDT" name="loginWithInValidCredentials" description="Invalid test case with invalid email and password" finished-at="2022-03-20T09:51:04 PDT" duration-ms="4345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:04 PDT" name="afterMethod" finished-at="2022-03-20T09:51:04 PDT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:04 PDT" name="beforeMethod" finished-at="2022-03-20T09:51:09 PDT" duration-ms="4918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithBlankEmailAndValidPassword()[pri:4, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:09 PDT" name="loginWithBlankEmailAndValidPassword" description="Blank email with valid password" finished-at="2022-03-20T09:51:13 PDT" duration-ms="3741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankEmailAndValidPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:13 PDT" name="afterMethod" finished-at="2022-03-20T09:51:13 PDT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:13 PDT" name="beforeMethod" finished-at="2022-03-20T09:51:18 PDT" duration-ms="5066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithValidEmailWithBlankPassword()[pri:5, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:18 PDT" name="loginWithValidEmailWithBlankPassword" description="Valid email with blank password" finished-at="2022-03-20T09:51:21 PDT" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidEmailWithBlankPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:21 PDT" name="afterMethod" finished-at="2022-03-20T09:51:21 PDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:21 PDT" name="beforeMethod" finished-at="2022-03-20T09:51:26 PDT" duration-ms="4905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithBlankEmailAndPassword()[pri:6, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:26 PDT" name="loginWithBlankEmailAndPassword" description="Blank email and password" finished-at="2022-03-20T09:51:30 PDT" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankEmailAndPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:30 PDT" name="afterMethod" finished-at="2022-03-20T09:51:30 PDT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:30 PDT" name="beforeMethod" finished-at="2022-03-20T09:51:35 PDT" duration-ms="5016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="forgotPasswordCheckwWithValidEmail()[pri:7, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:35 PDT" name="forgotPasswordCheckwWithValidEmail" description="Forgot pasword with valid email ID" finished-at="2022-03-20T09:51:45 PDT" duration-ms="9475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordCheckwWithValidEmail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:45 PDT" name="afterMethod" finished-at="2022-03-20T09:51:45 PDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:45 PDT" name="beforeMethod" finished-at="2022-03-20T09:51:49 PDT" duration-ms="4747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="forgotPasswordCheckWithInvalidEmail()[pri:8, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:49 PDT" name="forgotPasswordCheckWithInvalidEmail" description="Forgot pasword with invalid email ID" finished-at="2022-03-20T09:51:54 PDT" duration-ms="4569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordCheckWithInvalidEmail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.application.testcases.MyTestAssignment@7ce3cb8e]" started-at="2022-03-20T09:51:54 PDT" name="afterMethod" finished-at="2022-03-20T09:51:54 PDT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.application.testcases.MyTestAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
